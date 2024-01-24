@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-20T12:39:12 IST" name="Suite" finished-at="2024-01-20T12:40:07 IST" duration-ms="54750">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@17f62e33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-20T12:39:12 IST" name="Test" finished-at="2024-01-20T12:40:07 IST" duration-ms="54750">
+      <class name="runner.TestngRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:12 IST" name="setUpClass" finished-at="2024-01-20T12:39:14 IST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-20T12:39:28 IST" duration-ms="13964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test NSDL POP]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-20T12:39:38 IST" duration-ms="10255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test NSDL POP]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-20T12:39:49 IST" duration-ms="10517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test NSDL POP]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-20T12:39:59 IST" duration-ms="10432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test NSDL POP]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestngRunner@17f62e33]" started-at="2024-01-20T12:39:59 IST" name="tearDownClass" finished-at="2024-01-20T12:40:07 IST" duration-ms="7662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestngRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
